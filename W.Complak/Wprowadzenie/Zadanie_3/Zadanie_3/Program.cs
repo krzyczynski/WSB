@@ -19,7 +19,7 @@ namespace Zadanie_3
 
             int b1 = int.Parse(Console.ReadLine());
 
-            int a = a1, b = b1, c;
+            int a = a1, b = b1, c, d;
 
 
             while (true)
