@@ -16,7 +16,7 @@ namespace Choinka
             {
                 for (int j = 1; j <= i; j++)
                 {
-                    Console.Write("x");
+                    Console.Write("*");
                 }
 
                 Console.WriteLine("");
