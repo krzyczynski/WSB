@@ -6,27 +6,27 @@ namespace _17._10._19
 	{
 		static void Main(string[] args)
 		{
-			int j = 4;
+			int j = 1;
 			int k = 10;
-			int[] check;
-			check = new int[4];
 			int[][] tab;
 			tab = new int[4][];
 
+            //deklarowanie tablicy tablic
 			for (int i = 0; i < 4; i++)
 			{
-				tab[i] = new int[j];
-				check[i] = j;
-				j--;
+				tab[i] = new int[i+1];
 			}
+
+            //wypełnianie tablic i wyświetlanie
 			for (int i = 0; i < 4; i++)
 			{
-				for (j = 0; j < check[i]; j++)
+                for (j = 0; j < i+1; j++)
 				{
-					tab[i][j] = k;
-					k--;
-					Console.WriteLine("tab[{0}][{1}]: {2}", i + 1, j + 1, tab[i][j]);
+					tab[i][j] = k--;
+					
+					Console.Write("["+tab[i][j]+"]\t");
 				}
+                Console.WriteLine();
 			}
 		}
 	}

@@ -21,9 +21,7 @@ namespace Zadanie_2
 
             for (int i=0; i<numberOfColumn; i++)
             {
-                Console.Write("Podaj wysokość {0} kolumny histogramu: ",i+1);
-               
-                if (int.TryParse(Console.ReadLine(), out columnSize[i]) == false) Console.WriteLine("Błąd danych wejścia");
+                if (int.TryParse(Console.ReadLine(), out columnSize[i]) == false) Console.WriteLine("Liczba nie jest całkowita!");
             }
 
             Console.WriteLine("\nHistagram wygląda następująco: ");

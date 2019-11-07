@@ -9,10 +9,8 @@ namespace Tablice_wielowymiarowe
             //Zadanie dodatkowe z użyciem pętli Foreach
             //Wykonał Robert Krzyczyński
 
-            const int arrayX = 3;
-            const int arrayY = 3;
-
-
+            const int arrayX = 5;
+            const int arrayY = 5;
 
             int[,] array = new int[arrayX, arrayY];
 

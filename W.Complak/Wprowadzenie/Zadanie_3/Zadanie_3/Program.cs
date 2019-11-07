@@ -6,6 +6,7 @@ namespace Zadanie_3
     {
         static void Main(string[] args)
         {
+            //Zadanie 3
             /*Napisać program obliczania największego wspólnego dzielnika dwóch dodatnich liczb całkowity
              ch. Wykorzystać algorytm Euklidesa nie używając operacji dzieleni*/
             Console.WriteLine("Program do zadani 3");
@@ -19,7 +20,7 @@ namespace Zadanie_3
 
             int b1 = int.Parse(Console.ReadLine());
 
-            int a = a1, b = b1, c, d;
+            int a = a1, b = b1, c;
 
 
             while (true)

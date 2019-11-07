@@ -22,9 +22,9 @@ namespace Zadanie_5
 
                 while (exit == 0)
                 {
-                    if(number < 2) { Console.WriteLine("Liczba NIE jest pierwsza."); exit++; }
-                    else if (number == numberCheck) { Console.WriteLine("Liczba jest pierwsza."); exit++; }
-                    else if (number % numberCheck == 0) { Console.WriteLine("Liczba NIE jest pierwsza."); exit++; }
+                    if(number < 2) { Console.WriteLine("Liczba {0} nie jest pierwsza."); exit++; }
+                    else if (number == numberCheck) { Console.WriteLine("Liczba {0} jest liczbą pierwszą.",number); exit++; }
+                    else if (number % numberCheck == 0) { Console.WriteLine("Liczba {0} jest liczbą złożoną podzielną przez {1}.", number, numberCheck); exit++; }
                     else numberCheck++;
                 }
 
